@@ -1,35 +1,27 @@
-doctype html
-html
-    head
-        title Photography Website | free photography portfolio | Wix.com
-        link(rel='stylesheet' href='/stylesheets/style.css')
-        meta(charset="utf-8")
-        link(rel="shortcut icon" href="/favicon.ico")
-        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
-        meta(name="theme-color" content="#000000")
+extends layout
 
-    body
-        .header
-            h1 Create a Photography Website. 
-            h1 Establish Your Business.
-            pre  
-                |Get all the tools you need to create an eye-catching free    
-                |photography website and manage your day to day work.
-            button Create Now
-            .slide-container 
-                .slide
-                   img(src="./images/slide1.jpg", alt="slide1")  
-                   p By <strong>Sharon Radisch</strong>
-                   a(href="https://www.wix.com/photography/website") Visit Website
-                   
+block header 
+    h1 Create a Photography Website. 
+    h1 Establish Your Business.
+    pre  
+        |Get all the tools you need to create an eye-catching free    
+        |photography website and manage your day to day work.
+    button Create Now
+    .slideshow-container 
+        .slide.fade
+            img(src="./images/slide1.jpg" alt="slide1")  
+            .text By <strong>Sharon Radisch</strong>
+            a(href="https://www.wix.com/photography/website") Visit Website
+        .slide.fade
+            img(src="./images/slide1.jpg" alt="slide1")  
+            .text By <strong>Sharon Radisch</strong>
+            a(href="https://www.wix.com/photography/website") Visit Website
 
-        .body 
-            //- h2 Leave a Lasting Impression with Your Photography Business
-            //- a(href="http://localhost:3000/") Get Started
-        .footer
-        //- h1 
-        //-     |Build an Unforgettable Free     
-        //-     |Photography Portfolio
-        //- button Get Started 
-
-    foot 
+block section 
+    //- h2 Leave a Lasting Impression with Your Photography Business
+    //- a(href="http://localhost:3000/") Get Started
+block footer
+    //- h1 
+    //-     |Build an Unforgettable Free     
+    //-     |Photography Portfolio
+    //- button Get Started 
