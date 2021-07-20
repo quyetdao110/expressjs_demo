@@ -1,27 +1,55 @@
 extends layout
 
-block header 
-    h1 Create a Photography Website. 
-    h1 Establish Your Business.
-    pre  
-        |Get all the tools you need to create an eye-catching free    
-        |photography website and manage your day to day work.
-    button Create Now
-    .slideshow-container 
-        .slide.fade
-            img(src="./images/slide1.jpg" alt="slide1")  
-            .text By <strong>Sharon Radisch</strong>
-            a(href="https://www.wix.com/photography/website") Visit Website
-        .slide.fade
-            img(src="./images/slide1.jpg" alt="slide1")  
-            .text By <strong>Sharon Radisch</strong>
-            a(href="https://www.wix.com/photography/website") Visit Website
+block header
+    .grid-container 
+        .grid-item.header1
+            p header 
+        .grid-item.header2
+            p slide         
+        .grid-item.header3
+            p content
+        .grid-item.header4
+            p content
+    hr  
 
 block section 
-    //- h2 Leave a Lasting Impression with Your Photography Business
-    //- a(href="http://localhost:3000/") Get Started
+   .grid-container
+        .grid-item.item1
+            p header
+        .grid-item.item2
+            p content  
+        .grid-item.item3
+            p img
+        .grid-item.item4  
+            p img 
+        .grid-item.item5
+            p content 
+        .grid-item.item6
+            p content   
+        .grid-item.item7
+            p img
+        .grid-item.item8
+            p button  
+        
 block footer
-    //- h1 
-    //-     |Build an Unforgettable Free     
-    //-     |Photography Portfolio
-    //- button Get Started 
+    hr
+    .grid-container 
+        .grid-item.footer1
+            p The Tools
+        .grid-item.footer2
+            p img
+        .grid-item.footer3
+            p to grow  
+        .grid-item.footer4
+            p to manage     
+        .grid-item.footer5
+            p Learn more 
+        .grid-item.footer6
+            p Photography Templates
+        .grid-item.footer7
+            p Find Your 
+        .grid-item.footer8
+        .grid-item.footer9
+        .grid-item.footer10
+        .grid-item.footer11
+        .grid-item.footer12
