@@ -1,9 +1,34 @@
-.header {
-    margin-right: 15em;
-    margin-left: 15em;
+.heading-style {
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
-.icon {
-    width: 20px;
-    height: 16px;
+.header-description {
+    margin-left: 17em;
+    margin-right: 17em;
+}
+
+.righ-arrow {
+    font-size: 15px;
+    color: black;
+    padding-left: 12px;
+}
+
+.fb {
+    color: darkblue;
+}
+
+.col h1 {
+    font-size: 56px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+a.btn {
+    border-radius: 25px;
 }
