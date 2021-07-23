@@ -1,34 +1,191 @@
-.heading-style {
-    margin-right: 10em;
-    margin-left: 10em;
-    margin-top: 3em;
-    margin-bottom: 1em;
+.heading-style,
+.heading-section,
+.heading-find-style {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 .header-description {
-    margin-left: 17em;
-    margin-right: 17em;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    margin-bottom: 3rem;
+}
+
+.header-link,
+.section-link,
+.portfolio-link {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.header-link:visited,
+.section-link:visited,
+.portfolio-link:visited,
+.tool-link:visited,
+.started-tool-link:visited,
+.photography-link:visited,
+.righ-arrow:visited,
+.find-link:visited {
+    color: black;
+}
+
+.header-link:hover,
+.section-link:hover,
+.righ-arrow:hover,
+.started-tool-link:hover,
+.find-link:hover {
+    color: rgb(0, 162, 255);
+}
+
+.photography-link:hover {
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+}
+
+.col-6.content-section {
+    padding: 9.5rem;
 }
 
 .righ-arrow {
     font-size: 15px;
-    color: black;
-    padding-left: 12px;
+    padding-left: 0.5rem;
 }
 
-.fb {
-    color: darkblue;
-}
-
-.col h1 {
+.col-10 h1,
+.col-4 h1,
+.col-8 h1 {
     font-size: 56px;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
-p {
-    font-size: 20px;
+.col-build-style h1 {
+    color: white;
+}
+
+.col-4 h2,
+.col-6 h2 {
+    font-size: 40px;
+    margin-bottom: 2rem;
 }
 
 a.btn {
-    border-radius: 25px;
+    border-radius: 50px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+a.btn:hover {
+    background-color: rgb(0, 162, 255);
+}
+
+.content-style p,
+.col h3,
+.portfolio-style p,
+.col-8 p,
+.col-6 p {
+    font-size: 20px;
+}
+
+.section-image,
+.tool-image {
+    width: 100%;
+    height: 100%;
+}
+
+p,
+.find-link,
+.content-section p {
+    font-size: 16px;
+}
+
+.tool-link,
+.started-tool-link,
+.find-link {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.photography-link,
+.card p {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card p {
+    padding-left: 2rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    color: black;
+}
+
+.card-link-style:hover {
+    text-decoration: none;
+}
+
+.solid,
+.footer-solid {
+    border-top: 1px solid black;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.solid {
+    width: 93%;
+}
+
+.footer-solid {
+    width: 1070px;
+}
+
+.margin-tool-column {
+    margin-left: 1.5rem;
+}
+
+.photography-footer,
+.col-8 p,
+.portfolio-style {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer-photography {
+    background-color: rgb(244 245 247);
+}
+
+.card-styling {
+    width: 323px;
+    height: 367px;
+}
+
+.col-footer-find,
+.find-link,
+.col-build-style {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-build {
+    background-color: black;
+    text-align: center;
+}
+
+.foot-style {
+    margin-top: 12rem;
+}
+
+.heading-list {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.link-item {
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: 1rem;
 }
